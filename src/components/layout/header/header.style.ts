@@ -4,6 +4,9 @@ import { Li } from "../Navbar/navbar.style";
 export const Headers = styled.header`
     min-width: 100vw;
     height: 100vh;
+    background: rgb(0,7,14);
+    background: linear-gradient(45deg, rgba(0,7,14,1) 0%, rgba(1,14,28,1) 49%, rgba(0,7,14,1) 100%);
+   
 `;
 
 export const HeaderConatiner = styled.div`
@@ -27,11 +30,20 @@ export const Container = styled.div`
 `
 export const Img = styled.img`
     margin: auto;
-    width: 300px;
-    border-radius: 10%;
-    object-fit: cover;
-    filter: drop-shadow( 0 0 5px var(--color-primary));
-
+    width: 280px;
+    border-radius: 10px;
+    object-fit: contain;
+    filter: drop-shadow( 8px 8px 2px var(--color-primary));
+    transition: all .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+        filter: drop-shadow( 18px 18px 2px var(--color-primary));
+    }
+    &:active {
+        transform: scale(1.05);
+        filter: drop-shadow( 12px 12px 2px var(--color-primary));
+    }
 `;
 
 const write = keyframes`
@@ -42,6 +54,7 @@ const write = keyframes`
         transform: translateX(100%);
     }
 `;
+
 
 export const ContainerTxt = styled(Container)`
     flex-direction: column;

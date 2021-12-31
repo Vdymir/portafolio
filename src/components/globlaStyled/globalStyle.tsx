@@ -21,13 +21,13 @@ const GlobalStyle = createGlobalStyle`
     html, body {
         height: 100%;
         font-family: 'Roboto', sans-serif;
+        overflow-x: hidden;
+        background: rgb(0,7,14);
     }
   
     body {
         line-height: 1.5;
         -webkit-font-smoothing: antialiased;
-        background: rgb(0,7,14);
-    background: linear-gradient(45deg, rgba(0,7,14,1) 0%, rgba(1,14,28,1) 49%, rgba(0,7,14,1) 100%);
     }
  
     img, picture, video, canvas, svg {
