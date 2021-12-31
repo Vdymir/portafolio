@@ -53,3 +53,8 @@ export const Li = styled.li`
         margin-left: 0;
     }
 `;
+
+export const Link = styled.a`
+    text-decoration: none;
+    color: var(--color-bone);
+`;

@@ -23,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         overflow-x: hidden;
         background: rgb(0,7,14);
+        scroll-behavior: smooth;
     }
   
     body {
