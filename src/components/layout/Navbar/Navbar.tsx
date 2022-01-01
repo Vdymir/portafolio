@@ -7,16 +7,16 @@ const Navbar = () => {
             <NavContainer>
                 <Ul>
                     <Li>
-                        <Link href="#about"> About me</Link>
+                        <Link href="#about"> Sobre mi</Link>
                     </Li>
-                    <Li>
+                    {/* <Li>
                         <Link href="#about">Experience</Link>
+                    </Li> */}
+                    <Li>
+                        <Link href="#about">Proyectos</Link>
                     </Li>
                     <Li>
-                        <Link href="#about">Project</Link>
-                    </Li>
-                    <Li>
-                        <Link href="#about">Contact me</Link>
+                        <Link href="#about">Contacta me</Link>
 
                     </Li>
                 </Ul>

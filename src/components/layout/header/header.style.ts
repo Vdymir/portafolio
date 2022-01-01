@@ -96,6 +96,5 @@ export const ContainerTxt = styled(Container)`
 export const Button = styled(Li)`
     margin-top: 10px;
     list-style: none;
-    font-size: 20px;
     text-transform: uppercase;
 `;

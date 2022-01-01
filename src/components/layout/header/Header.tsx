@@ -17,10 +17,10 @@ const Header = () => {
                 <ContainerTxt>
                     <span>Hi! I'm 👋🏼</span>
                     <h2>Vladimir Castañeda</h2>
-                    <p>Front End Developer </p>
+                    <p>Desarrollador Frontend </p>
 
                     <Button onClick={() => handleClick(URL_CV)} >
-                        See Cv
+                        ver cv
                     </Button>
                 </ContainerTxt>
             </HeaderConatiner>

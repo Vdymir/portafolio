@@ -28,9 +28,9 @@ export const Ul = styled.ul`
 
 export const Li = styled.li`
     margin-left: 30px;
-    font-size: 1rem;
+    font-size: .85rem;
     font-weight: bold;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 10px 15px;
     color: var(--color-bone);
     border-radius: 11px;

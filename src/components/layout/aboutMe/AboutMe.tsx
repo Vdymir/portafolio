@@ -3,18 +3,18 @@ import { About, AboutContainer, BoxContainer, BoxTitle, Span, Title } from "./ab
 const AboutMe = () => {
     return (
         <About id='about'>
-            <Title>About Me</Title>
+            <Title>Sobre mí</Title>
             <AboutContainer>
                 <BoxContainer>
-                    <BoxTitle>Me</BoxTitle>
+                    <BoxTitle>¿Quien soy?</BoxTitle>
                     <Span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quidem! Amet voluptas porro non cupiditate obcaecati earum, molestiae debitis nemo laborum eos rem facere asperiores autem ipsam possimus, quo numquam?
+                        Soy un desarrollador frontend apasionado por las tecnologías multiplataformas, con conocimientos fuertes en React, React Native, TypeScript, actualmente me encuentro trabajando en proyectos que requieren React en la web, sin dejar de estudiar en mis tiempos libre React "avanzado" y Flutter. Tengo como objetivo dominar estas tecnologías.
                     </Span>
                 </BoxContainer>
                 <BoxContainer>
-                    <BoxTitle>Experience</BoxTitle>
+                    <BoxTitle>Experiencia</BoxTitle>
                     <Span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur cumque, dolorem unde voluptatibus harum molestiae commodi vel odio distinctio. Inventore voluptatibus praesentium quisquam repellendus sunt non. Modi, quis impedit!
+                        Acutualmente tengo aproximadamente 6 meses de experiencia usando React y React Native en proyectos pequeños y en proyectos grandes para empresas multinacioneles del Pais, siempre aplicando buenas practicas, codigo limpio y esclable, usando patrones de diseño para construir los componente en react, refactorizando y mejorando codigo existente.
                     </Span>
                 </BoxContainer>
             </AboutContainer>
