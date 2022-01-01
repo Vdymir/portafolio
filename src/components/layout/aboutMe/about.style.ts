@@ -27,9 +27,12 @@ export const Title = styled.h2`
    
 `;
 export const AboutContainer = styled.main`
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
-    gap: 10px;
+    gap: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 1400px;
 `;
@@ -37,12 +40,14 @@ export const BoxContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 80%;
+    max-width: 600px;
     margin: 1rem auto auto;
     border-radius: 10px;
     justify-content: flex-start;
     text-align: center;
     padding: 15px 25px;
-    background: #00070E;
+    border: 1px solid rgba(255, 255, 255, .3);
+    background: linear-gradient(to top, rgba(255, 255, 255, .01), rgba(255, 255, 255, .03));
     box-shadow:  15px 15px 30px #000408,
              -15px -15px 30px #000a14;
 

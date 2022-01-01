@@ -31,7 +31,6 @@ export const Li = styled.li`
     font-size: .85rem;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 10px 15px;
     color: var(--color-bone);
     border-radius: 11px;
     background: #0b1f36;
@@ -57,4 +56,6 @@ export const Li = styled.li`
 export const Link = styled.a`
     text-decoration: none;
     color: var(--color-bone);
+    display: block;
+    padding: 10px 15px;
 `;

@@ -97,4 +97,5 @@ export const Button = styled(Li)`
     margin-top: 10px;
     list-style: none;
     text-transform: uppercase;
+    padding: 10px 15px;
 `;
