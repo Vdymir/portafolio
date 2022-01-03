@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.1.19",
+    "animate.css": "^4.1.1",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.2",

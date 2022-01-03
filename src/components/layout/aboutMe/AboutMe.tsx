@@ -1,20 +1,18 @@
 import ScrollAnimation from "react-animate-on-scroll";
-import { About, AboutContainer, BoxContainer, BoxTitle, Span, Title } from "./about.style"
+import { About, AboutContainer, BoxContainer, BoxTitle, Span, SpanBlue, Title } from "./about.style"
 import Tilt from 'react-tilt';
 
 const AboutMe = () => {
     return (
         <About id='about'>
-            <ScrollAnimation animateIn="fadeInLeft" >
-                <Title>Sobre mí</Title>
-            </ScrollAnimation>
+            <Title>Sobre mí</Title>
             <AboutContainer>
                 <Tilt options={{ max: 25 }} >
                     <ScrollAnimation animateIn='wobble' initiallyVisible delay={500}>
                         <BoxContainer>
                             <BoxTitle>¿Quien soy?</BoxTitle>
                             <Span>
-                                Soy un desarrollador frontend apasionado por las tecnologías multiplataformas, con conocimientos fuertes en React, React Native, TypeScript, actualmente me encuentro trabajando en proyectos que requieren React en la web, sin dejar de estudiar en mis tiempos libre React "avanzado" y Flutter. Tengo como objetivo dominar estas tecnologías.
+                                Soy un desarrollador frontend apasionado por las tecnologías <SpanBlue>multiplataformas</SpanBlue>, con conocimientos fuertes en React,  <SpanBlue>React Native</SpanBlue>, JavaScript y TypeScript, actualmente me encuentro <SpanBlue>trabajando</SpanBlue> en proyectos que requieren React en la <SpanBlue>web</SpanBlue>, sin dejar de estudiar en mis tiempos libre React "avanzado" y <SpanBlue>Flutter</SpanBlue>. Tengo como objetivo <SpanBlue>dominar</SpanBlue> estas tecnologías.
                             </Span>
                         </BoxContainer>
                     </ScrollAnimation>

@@ -5,7 +5,7 @@ export const About = styled.section`
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     position: relative;
     
     &:before { 
@@ -63,4 +63,7 @@ export const Span = styled.span`
     font-weight: 400;
     letter-spacing: 1px;
 
+`;
+export const SpanBlue = styled(Span)`
+    color: var(--color-primary);
 `;
