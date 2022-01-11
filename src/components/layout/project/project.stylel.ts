@@ -23,7 +23,9 @@ export const WrapperImg = styled.div`
     width: 100%;
     max-width: 1400px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    align-items: center;
+    justify-items: center;
     gap: 20px;
     padding: 0 4rem;
     margin-top: 2rem;
