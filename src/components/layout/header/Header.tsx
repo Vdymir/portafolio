@@ -21,7 +21,7 @@ const Header = () => {
                     <ScrollAnimation animateIn='flipInY' animateOut='flipOutY' delay={700}>
                         <span>Hi! I'm 👋🏼</span>
                         <h2>Vladimir Castañeda</h2>
-                        <p>Desarrollador Frontend </p>
+                        <p>Frontend Developer</p>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft" delay={800}>
                         <Button onClick={() => handleClick(URL_CV)} >

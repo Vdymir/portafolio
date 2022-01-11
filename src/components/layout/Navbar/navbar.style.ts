@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Nav = styled.nav`
     display: flex;
@@ -9,6 +9,14 @@ export const Nav = styled.nav`
     padding: 10px 20px;
 `;
 
+const animation = keyframes`
+    from {
+        transform: translateY(-200px)
+    } to {
+        transform: translateY(0);
+    }
+`;
+
 export const NavContainer = styled.div`
     height: 100%;
     width: 100%;
@@ -16,6 +24,7 @@ export const NavContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    animation: ${animation} .8s linear;
 `
 
 export const Ul = styled.ul`

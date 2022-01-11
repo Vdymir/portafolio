@@ -1,5 +1,3 @@
-import React from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
 import { Li, Link, Nav, NavContainer, Ul } from './navbar.style'
 
 const Navbar = () => {
@@ -14,10 +12,10 @@ const Navbar = () => {
                         <Link href="#about">Experience</Link>
                     </Li> */}
                         <Li>
-                            <Link href="#about">Proyectos</Link>
+                            <Link href="#projects">Proyectos</Link>
                         </Li>
                         <Li>
-                            <Link href="#about">Contacta me</Link>
+                            <Link href="#contact">Contacta me</Link>
 
                         </Li>
                     </Ul>

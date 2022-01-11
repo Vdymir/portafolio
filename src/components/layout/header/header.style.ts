@@ -76,7 +76,7 @@ export const ContainerTxt = styled(Container)`
         color: var(--color-primary);
         position: relative;
         overflow: hidden;
-        width: 360px;
+        width: 300px;
         border-radius: 10px;
         background: linear-gradient(145deg, #010f1d, #010d18);
         box-shadow:  17px 17px 33px #010c16,
