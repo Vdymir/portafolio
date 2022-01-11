@@ -35,6 +35,7 @@ export const AboutContainer = styled.main`
     justify-content: center;
     width: 100%;
     max-width: 1400px;
+    margin-top: 2rem;
 `;
 export const BoxContainer = styled.div`
     display: flex;
