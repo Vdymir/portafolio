@@ -5,7 +5,6 @@ import Tilt from 'react-tilt';
 const AboutMe = () => {
     return (
         <About id='about'>
-            <Title>Sobre mí</Title>
             <AboutContainer>
                 <Tilt options={{ max: 25 }} >
                     <ScrollAnimation animateIn='wobble' initiallyVisible delay={500}>
