@@ -30,6 +30,10 @@ export const WrapperImg = styled.div`
     padding: 0 4rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+    @media(max-width: 480px) {
+        padding: 0;
+    }
 `;
 
 export const CardContainer = styled.div`
@@ -47,6 +51,11 @@ export const CardContainer = styled.div`
     &:hover {
         transform: scale(1.05);
     }
+
+    @media(max-width: 480px) {
+        width: 90%;
+    }
+
 `;
 
 export const CardHeader = styled.header`
@@ -103,5 +112,12 @@ export const CardFooter = styled.footer`
         background-color: rgba(0,0,0,.5);
         padding: 5px 10px;
         border-radius: 20px;
+        flex: 1;
+
+        @media (max-width: 480px) {
+            padding: 4px 8px;
+            font-weight: normal;
+            font-size: 15px;
+        }
     }
 `;

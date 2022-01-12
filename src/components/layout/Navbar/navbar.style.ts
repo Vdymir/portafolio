@@ -23,8 +23,9 @@ export const NavContainer = styled.div`
     max-width: 1400px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     animation: ${animation} .8s linear;
+
+
 `
 
 export const Ul = styled.ul`
@@ -33,6 +34,10 @@ export const Ul = styled.ul`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 480px) {
+        padding: 0;
+  }
 `;
 
 export const Li = styled.li`
@@ -60,6 +65,11 @@ export const Li = styled.li`
     &:first-of-type {
         margin-left: 0;
     }
+
+    @media(max-width: 480px) {
+        font-size: .6rem;
+  }
+
 `;
 
 export const Link = styled.a`

@@ -1,7 +1,7 @@
 {
   "homepage":"https://vdymir.github.io",
   "name": "portafolio",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

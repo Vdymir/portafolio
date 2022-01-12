@@ -8,17 +8,26 @@ export const FooterCont = styled.footer`
     align-items: center;
     justify-content: center;
 
+    @media (max-width: 480px) {
+        padding: 0 1rem;
+    }
+
     h3 {
         text-transform: uppercase;
         font-size: .95rem;
         letter-spacing: 1px;
         color: var(--color-bone);
+        text-align: center;
     }
 
     ul {
         display: flex;
         list-style: none;
         margin-top: 1rem;
+
+        @media (max-width: 480px) {
+            padding: 0;
+        }
         
         li {
             margin-left: 1rem;

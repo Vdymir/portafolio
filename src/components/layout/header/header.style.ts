@@ -12,13 +12,18 @@ export const Headers = styled.header`
 export const HeaderConatiner = styled.div`
     width: 100%;
     max-width: 1400px;
-    height: 500px;
+    min-height: 500px;
     max-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+
+    @media(max-width: 480px) {
+        flex-direction: column;
+    }
+
 `;
 
 export const Container = styled.div`
@@ -44,6 +49,11 @@ export const Img = styled.img`
         transform: scale(1.05);
         filter: drop-shadow( 12px 12px 2px var(--color-primary));
     }
+
+    @media(max-width: 480px) {
+        width: 220px;
+    }
+
 `;
 
 const write = keyframes`
@@ -92,6 +102,21 @@ export const ContainerTxt = styled(Container)`
         border-left: 1px solid var(--color-primary);
         top: 1px;
         animation: ${write} 2s infinite alternate steps(22);
+    }
+    
+    @media(max-width: 480px) {
+        width: 80%;
+        margin-top: 2rem;
+        span, p {
+            font-size: 1.5rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+        }
+        p {
+            margin-top: 1rem;
+            width: 80%;
+        }
     }
 `;
 export const Button = styled(Li)`
