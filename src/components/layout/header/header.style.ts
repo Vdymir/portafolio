@@ -106,7 +106,8 @@ export const ContainerTxt = styled(Container)`
     
     @media(max-width: 480px) {
         width: 80%;
-        margin-top: 2rem;
+        margin-top: 2rem;        
+        position: relative;
         span, p {
             font-size: 1.5rem;
         }
@@ -124,4 +125,10 @@ export const Button = styled(Li)`
     list-style: none;
     text-transform: uppercase;
     padding: 10px 15px;
+
+    @media(max-width: 480px) {
+        position: absolute;
+        right: -300px;
+        top: -200px;
+    }
 `;
