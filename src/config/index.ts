@@ -5,5 +5,5 @@ export const URL_REDES = {
     fb: 'https://www.facebook.com/vladimir.castaneda.731',
     ig: 'https://www.instagram.com/vdymir/',
     wpp: 'https://wa.me/qr/MAIHEENXQDURM1',
-    lnk: 'www.linkedin.com/in/eduardo-castañed4',
+    lnk: 'https:/www.linkedin.com/in/eduardo-castañed4',
 }
