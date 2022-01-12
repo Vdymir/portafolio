@@ -1,13 +1,12 @@
 {
-  "homepage":"https://vdymir.github.io/portafolio",
+  "homepage":"https://vdymir.github.io",
   "name": "portafolio",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.19",
