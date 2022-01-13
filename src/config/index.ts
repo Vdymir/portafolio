@@ -1,4 +1,4 @@
-export const URL_CV = 'https://drive.google.com/file/d/1E1GesphULM0ZdythqmEGrb0uKiwq32uj/view?usp=drivesdk';
+export const URL_CV = 'https://drive.google.com/file/d/1nu6pMxqaBV-XK62gDmYHuMoVvaWy2sD-/view?usp=sharing';
 export const URL_Github = 'https://github.com/Vdymir'
 
 export const URL_REDES = {
