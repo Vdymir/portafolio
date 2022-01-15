@@ -6,7 +6,7 @@ const Navbar = () => {
             <NavContainer>
                     <Ul>
                         <Li>
-                            <Link href="#about"> Sobre mi</Link>
+                            <Link href="#about"> Sobre mí</Link>
                         </Li>
                         {/* <Li>
                         <Link href="#about">Experience</Link>
@@ -15,7 +15,7 @@ const Navbar = () => {
                             <Link href="#projects">Proyectos</Link>
                         </Li>
                         <Li>
-                            <Link href="#contact">Contacta me</Link>
+                            <Link href="#contact">Contáctame</Link>
 
                         </Li>
                     </Ul>
