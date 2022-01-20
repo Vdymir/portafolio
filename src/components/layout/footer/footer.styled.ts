@@ -38,7 +38,7 @@ export const FooterCont = styled.footer`
             }
             img {
                 width: 40px;
-                filter: grayscale(.1);
+                filter: invert() grayscale(1);
                 cursor: pointer;
                 transition: transform .3s;
 
